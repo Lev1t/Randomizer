@@ -8,7 +8,18 @@
         FontFamily="./Resources/Segoe UI.ttf"
         Title="MainWindow" WindowStyle="None" ResizeMode="NoResize" ShowInTaskbar="False" Height="52" Width="67" FontSize="52" Deactivated="Window_Deactivated" >
 
-    <Label Content="R" HorizontalAlignment="Left" HorizontalContentAlignment="Center" VerticalContentAlignment="Top" Width="67" MouseLeftButtonDown="Label_MouseLeftButtonDown" MouseLeftButtonUp="Label_MouseLeftButtonUp" Padding="1" FontSize="58" Margin="0,-7,0,0" SnapsToDevicePixels="True" FontFamily="./Resources/Segoe UI.ttf">
+    <Label Content="R"
+           HorizontalAlignment="Left" 
+           HorizontalContentAlignment="Center" 
+           VerticalContentAlignment="Top" 
+           Width="67" 
+           MouseLeftButtonDown="Label_MouseLeftButtonDown" 
+           MouseLeftButtonUp="Label_MouseLeftButtonUp" 
+           Padding="1" 
+           FontSize="58" 
+           Margin="0,-7,0,0" 
+           SnapsToDevicePixels="True" 
+           FontFamily="./Resources/Segoe UI.ttf">
         <Label.ContextMenu>
             <ContextMenu Style="{DynamicResource ResourceKey=ContextMenuStyle}">
                 <MenuItem Header="Hide" Click="MenuItem_Hide_Click"/>

@@ -56,10 +56,10 @@
     <ApplicationIcon>Bear.ico</ApplicationIcon>
   </PropertyGroup>
   <PropertyGroup>
-    <ManifestCertificateThumbprint>231A17E8DE87C8AE505E40BFBF3F9BBAB0E1E213</ManifestCertificateThumbprint>
+    <ManifestCertificateThumbprint>045B0F4EACE85115D3208921A503A5CD6BDF7D6F</ManifestCertificateThumbprint>
   </PropertyGroup>
   <PropertyGroup>
-    <ManifestKeyFile>Randomizer_TemporaryKey.pfx</ManifestKeyFile>
+    <ManifestKeyFile>Randomizer_1_TemporaryKey.pfx</ManifestKeyFile>
   </PropertyGroup>
   <PropertyGroup>
     <GenerateManifests>true</GenerateManifests>
@@ -121,6 +121,7 @@
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
     </None>
+    <None Include="Randomizer_1_TemporaryKey.pfx" />
     <None Include="Randomizer_TemporaryKey.pfx" />
     <None Include="Resources\Segoe UI.ttf" />
   </ItemGroup>
